@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css" integrity="sha512-xX2rYBFJSj86W54Fyv1de80DWBq7zYLn2z0I9bIhQG+rxIF6XVJUpdGnsNHWRa6AvP89vtFupEPDP8eZAtu9qA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/regular.min.css" integrity="sha512-YoxvmIzlVlt4nYJ6QwBqDzFc+2aXL7yQwkAuscf2ZAg7daNQxlgQHV+LLRHnRXFWPHRvXhJuBBjQqHAqRFkcVw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/svg-with-js.min.css" integrity="sha512-U7WyVKwgyoYSa+qowujpUQIH3omU6SlFFr8m6kiEuuM1lWqoiURgTNskMFEf1la4PDNQzMws/G1u0wKGNxVbcQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/brands.min.css" integrity="sha512-OivR4OdSsE1onDm/i3J3Hpsm5GmOVvr9r49K3jJ0dnsxVzZgaOJ5MfxEAxCyGrzWozL9uJGKz6un3A7L+redIQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.rtl.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/fontawesome.min.js" integrity="sha512-5qbIAL4qJ/FSsWfIq5Pd0qbqoZpk5NcUVeAAREV2Li4EKzyJDEGlADHhHOSSCw0tHP7z3Q4hNHJXa81P92borQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/regular.min.js" integrity="sha512-eH31QC2/CLTAQpugtCMQh/w68mbefCbaDTsSbmqOk86RICy523PnuNMaFfQ5cAkwwJ1dsnn7OUt8bfkF24zprg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/solid.min.js" integrity="sha512-C92U8X5fKxCN7C6A/AttDsqXQiB7gxwvg/9JCxcqR6KV+F0nvMBwL4wuQc+PwCfQGfazIe7Cm5g0VaHaoZ/BOQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/brands.min.js" integrity="sha512-KGeeDLRAGeJZYsq3J/4s/X6eZyaxTAlScSN2b7z/H/r2MBZ3pAg4T52SzavEJa2Uthmll5HMhvRaLeuxT76EVQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/javascript.js"></script>
+    <title>نوبت گیری آرایشگاه</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top py-3 navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand d-xl-none d-lg-none fw-bold" href="#" style="font-size: 1.5rem;"><img src="images/logo.png" class="img-fluid" alt="" style="width: 15% !important;"></a>
+        <button class="navbar-toggler p-1" style="background-color: black" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0">
+                <li class="nav-item me-3">
+                    <a class="nav-link active h5 fw-bold" aria-current="page" href="main_page.html">صفحه اصلی</a>
+                </li>
+                <li class="nav-item dropdown me-3">
+                    <a class="nav-link dropdown-toggle h5 fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        سالن های آرایشی
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item h5" href="men_category.html">سالن های آقایان</a></li>
+                        <li><a class="dropdown-item h5" href="women_category.html">سالن های بانوان</a></li>
+                        <li><a class="dropdown-item h5" href="pet_category.html">سالن های حیوانات</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link h5 fw-bold" href="#">افزودن سالن</a>
+                </li>
+                <li class="nav-item me-3">
+                    <a class="nav-link h5 fw-bold" href="#">ورود</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link h5 fw-bold" href="#">ثبت نام</a>
+                </li>
+            </ul>
+            <img src="images/logo.png" class="img-fluid me-5" alt="" style="width: 12% !important;">
+        </div>
+    </div>
+</nav>
+<section class="book-page">
+    <div class="container">
+        <div class="row text-center pt-5"><h2 class="h2 fw-bold">سالن آرایشی تجریش</h2></div>
+        <div class="row p-5">
+            <div class="col-lg-6 p-5">
+                <h4 class="h4"> <span><i class="fa-solid fa-location-dot"></i></span> آدرس : تهران | تجریش</h4>
+                <h4 class="h4"> <span><i class="fa-solid fa-coins"></i></span> قیمت : 50 هزار تومان</h4>
+                <h4 class="h4"> <span><i class="fa-solid fa-align-right"></i></span> توضیحات : لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</h4>
+                <h4 class="h4"> <span><i class="fa-solid fa-phone-flip"></i></span> شماره تماس : 021 021 21 021 </h4>
+            </div>
+            <div class="col-lg-6">
+                <div class="inner card-img-tiles">
+                    <div class="main-img"><img class="" src="images/book1.jfif" alt="Category"></div>
+                    <div class="thumblist">
+                        <img class="" src="images/book2.jfif" alt="Category">
+                        <hr>
+                        <img class="" src="images/book3.jfif" alt="Category">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="book-times">
+    <div class="container">
+        <div class="row text-center"><h2 class="h2 text-center p-5" style="color: #fff"> <span class="h4 p-1 text-light"><i class="fa-solid fa-clock"></i></span> زمان مد نظر خود را جهت رزرو انتخاب نمایید</h2></div>
+        <div class="row">
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+            </div>
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+            </div>
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+            </div>
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+            </div>
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+            </div>
+            <div class="col-2 text-center">
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+                <button type="button" class="btn btn-city rounded-pill fw-bold">10:30</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid comment-section">
+        <div class="row"><div class="text-center pt-4 mt-2 col-12"><span class="h4 p-1"><i class="fa-solid fa-comment-dots"></i></span> <b class="h2 text-dark"> نظرات </b> </div></div>
+        <div class="row">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner" style="padding: 2rem 8rem 4rem 8rem;">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="card-group" style="margin: 0rem 5rem;">
+                            <div class="col-md-4">
+                                <div class="card card-profile card-plain">
+                                    <div class="card-avatar text-center p-3">
+                                        <img class="img-fluid w-50 rounded-circle h-50" src="images/IMG_2552.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body text-center">
+                                            <div class="author">
+                                                <h4 class="card-title">Kasra Babazadeh</h4><br>
+                                            </div>
+                                        <p class="card-description text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-profile card-plain">
+                                    <div class="card-avatar text-center p-3">
+                                        <img class="img-fluid w-50 rounded-circle h-50" src="images/IMG_2552.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <div class="author">
+                                            <h4 class="card-title">Kasra Babazadeh</h4><br>
+                                        </div>
+                                        <p class="card-description text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-profile card-plain">
+                                    <div class="card-avatar text-center p-3">
+                                        <img class="img-fluid w-50 rounded-circle h-50" src="images/IMG_2552.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <div class="author">
+                                            <h4 class="card-title">Kasra Babazadeh</h4><br>
+                                        </div>
+                                        <p class="card-description text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <div class="card-group me-5 ms-5">
+                            <div class="col-md-4">
+                                <div class="card card-profile card-plain">
+                                    <div class="card-avatar text-center p-3">
+                                        <img class="img-fluid w-50 rounded-circle h-50" src="images/IMG_2552.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <div class="author">
+                                            <h4 class="card-title">Kasra Babazadeh</h4><br>
+                                        </div>
+                                        <p class="card-description text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-profile card-plain">
+                                    <div class="card-avatar text-center p-3">
+                                        <img class="img-fluid w-50 rounded-circle h-50" src="images/IMG_2552.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <div class="author">
+                                            <h4 class="card-title">Kasra Babazadeh</h4><br>
+                                        </div>
+                                        <p class="card-description text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-profile card-plain">
+                                    <div class="card-avatar text-center p-3">
+                                        <img class="img-fluid w-50 rounded-circle h-50" src="images/IMG_2552.jpg" alt="...">
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <div class="author">
+                                            <h4 class="card-title">Kasra Babazadeh</h4><br>
+                                        </div>
+                                        <p class="card-description text-center">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
+        <div class="row p-5" style="background-color: #f2f2f2">
+            <div class="container text-center">
+                <h2 class="h2">نظر خود را با ما به اشتراک بگذارید</h2><br>
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <textarea class="form-control float-start w-50" name="" id="" cols="10" rows="3">نظر خود را تایپ کنید . . .</textarea>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-lg-3"></div>
+                    <button id="add-comment" class="btn rounded-pill pt-2 w-50" type="submit"> ارسال نظر <span><i class="fa-solid fa-upload"></i></span> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid" style="background-color: #fff;">
+        <div class="row footer text-center p-5">
+            <div class="col-lg-4 pt-lg-5">
+                <a href="">افزودن سالن</a><br>
+                <a href="main_page.html">صفحه اصلی</a><br>
+                <a href="">درباره ما</a>
+            </div>
+            <div class="col-lg-4 pt-lg-5">
+                <a href="men_category.html">سالن های آرایشی آقایان</a><br>
+                <a href="women_category.html">سالن های آرایشی بانوان</a><br>
+                <a href="pet_category.html">سالن های آرایشی حیوانات</a>
+            </div>
+            <div class="col-lg-4">
+                <img src="images/logo.png" class="img-fluid w-50" alt="">
+                <h3>ما را در شبکه های اجتماعی دنبال کنید</h3><br>
+                <a href=""><span><i class="fa-brands fa-telegram"></i></span></a>
+                <a href=""><span><i class="fa-brands fa-instagram"></i></span></a>
+                <a href=""><span><i class="fa-brands fa-twitter"></i></span></a>
+                <a href=""><span><i class="fa-brands fa-facebook-f"></i></span></a>
+            </div>
+            <div class="row"><p class="h4 fw-bold text-dark pt-5">Copy Right &copy; 2022 - Design By Kasra Babazadeh</p></div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="fabs">
+        <div class="chat">
+            <div class="chat_header">
+                <span id="chat_head">Live Chat</span>
+                <div class="chat_loader"></div>
+            </div>
+            <div class="chat_login">
+                <a id="chat_send_email" class="fab"><i class="fa-regular fa-comment"></i></a>
+                <input id="chat_log_email" placeholder="Email">
+                <div class="chat_login_alert"></div>
+            </div>
+            <div id="chat_converse" class="chat_converse">
+                <span class="chat_msg_item chat_msg_item_admin"><div class="chat_avatar"><img class="img-fluid rounded-circle" src="images/IMG_2552.jpg" alt=""></div>سوالات خود را با من در میان بگذارید</span>
+                <span class="chat_msg_item chat_msg_item_user">
+                <div class="chat_avatar">
+                    <img class="img-fluid rounded-circle" src="images/IMG_2552.jpg" alt="">
+                </div>سلام</span>
+            </div>
+            <div class="fab_field">
+                <hr style="color: #000;margin: 0px;">
+                <span id="fab_send" class="rounded-circle"><i class="fa-solid fa-arrow-right"></i></span>
+                <textarea id="chatSend" name="chat_message" placeholder="Write a message" class="chat_field chat_message"></textarea>
+            </div>
+        </div>
+        <a id="prime"><i class="fa-regular fa-comment"></i></a>
+    </div>
+</section>
+</body>
+</html>
