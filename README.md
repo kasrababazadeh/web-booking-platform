@@ -12,6 +12,7 @@ The **Web Booking Platform** is a responsive and user-friendly online booking we
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
 
 ## Getting Started
 To run the project locally, clone the repository:
